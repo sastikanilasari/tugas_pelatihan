@@ -26,6 +26,7 @@ rects2 = ax.bar(x + width/2, women_means, width, label = 'Women')
 ax.set_ylabel('Nilai')
 ax.set_title('Nilai berdasarkan Mata Pelajaran dan Jenis Kelamin')
 ax.set_xticks(x, labels)
+plt.xticks(rotation=45)
 ax.legend()
 
 ax.bar_label(rects1, padding = 3)
